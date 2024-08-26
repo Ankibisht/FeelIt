@@ -91,14 +91,6 @@ Array.from(document.getElementsByClassName('hi')).forEach((e)=>{
             tittle.innerHTML = songName;
         })
         
-        let songTittles2 = sunidhi.filter((els) =>{
-            return els.id == index;
-        })
-
-        songTittles2.forEach((els) =>{
-            let{songName} = els;
-            tittle.innerHTML = songName;
-        })
 
     });
 })

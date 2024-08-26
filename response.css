@@ -1,0 +1,142 @@
+@media screen and (max-width:1525px) {
+
+    header .right nav .search {
+        margin-left: 250px;
+        
+    }
+
+    .home_content {
+    
+        height: 48%;
+
+    }
+
+    .slide .item:nth-child(5){
+        left: calc(50% + 220px);
+    }
+    
+
+    .home_content .container {
+        margin-left: 20px;
+        width: 600px;
+    }
+
+    .ep .name {
+        font-size: 30px;
+    }
+
+    .popular .h4 {
+        gap: 75%;
+    }
+
+    .artists .h4 {
+       
+        gap: 75%;
+    }
+
+    .icons {
+        margin-left: 0px;
+    }
+
+    .content .right_Art {
+        width: 50%;
+        height: 90%;
+        margin-left: 60px;
+    }
+        
+    
+}
+
+@media screen and (max-width:1024px){
+    header .right {
+        position:absolute;
+        
+        width: 100%;
+        
+        
+    }
+    header .left{
+        width: 60%;
+        position: absolute;
+        z-index: 999;
+        transition: 1s linear;   
+    }
+
+    header .left .Songs {
+        height: 205%;
+    }
+
+
+    .slide .item:nth-child(1), .slide .item:nth-child(2) {
+        width: 100%;
+        height: 100%;
+    }
+
+    header .right nav .search {
+        margin-left: 60px;
+    }
+
+    .home_content .container {
+        margin-left: 0px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .slide .item:nth-child(4){
+        left: calc(50% );
+        opacity: 0;
+    }
+
+    .slide .item:nth-child(3){
+        left: calc(50% );
+        opacity: 0;
+    }
+
+    .slide .item:nth-child(5){
+        left: calc(50% );
+        opacity: 0;
+    }
+
+    header .right nav .search {
+        width: 35%;
+        
+    }
+
+    .button {
+        bottom: 20px;
+    }
+
+    .popular .h4 {
+        gap: 50%;
+    }
+
+    .artists .h4 {
+       
+        gap: 50%;
+    }
+
+    .item .ep {
+        width: 280px;
+        
+    }
+
+    .home_content {
+        height: auto;
+    }
+
+    header .right {
+        height: 90%;   
+    }
+
+    .left .Songs h6{
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+    
+
+
+
+        
+
+}

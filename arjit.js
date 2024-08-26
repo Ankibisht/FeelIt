@@ -77,6 +77,15 @@ Array.from(document.getElementsByClassName('hi')).forEach((e)=>{
             tittle.innerHTML = songName;
         })
 
+        let songTittles1 = sunidhi.filter((els) =>{
+            return els.id == index;
+        })
+
+        songTittles1.forEach((els) =>{
+            let{songName} = els;
+            tittle.innerHTML = songName;
+        })
+
     });
 })
 
@@ -311,8 +320,9 @@ const sunidhi = [
 ]
 
 Array.from(document.getElementsByClassName('art_songs')).forEach((e,i) =>{
-    e.getElementsByTagName('img')[0].src = sunidhi[i].poster;
     e.getElementsByTagName('h5')[0].innerHTML = sunidhi[i].songName;
+    e.getElementsByTagName('img')[0].src = sunidhi[i].poster;
+    
 
 });
 

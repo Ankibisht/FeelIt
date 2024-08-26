@@ -677,11 +677,9 @@ header .right nav .search input{
 
 .home_content .container{
     position: relative;
-    margin-left: 20px;
-   
-
+    margin-left: 30px;
     
-    width: 930px;
+    width: 910px;
     height: 350px;
     background: rgb(26, 28, 31);
     box-shadow: 0 10px 10px rgb(23, 21, 21);
