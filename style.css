@@ -1010,5 +1010,15 @@ body{
     gap: 5px;
 }
 
+.play .vol input {
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    z-index: 999999999999999999999999999;
+    opacity: 0;
+
+    top: -8px;
+}
+
 
 

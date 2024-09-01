@@ -1,5 +1,13 @@
 @media screen and (max-width:1525px) {
 
+    header .left{
+        transform: translate(0%);
+    }
+
+    .left h6{
+        display: none;
+    }
+
     header .right nav .search {
         margin-left: 250px;
         
@@ -63,9 +71,7 @@
         transform: translateX(-100%);  
     }
 
-    header .left_active{
-        
-    }
+   
 
     header .left .Songs {
         height: 205%;
@@ -83,8 +89,8 @@
 
     .home_content .container {
         margin-left: 0px;
-        width: 400px;
-        height: 300px;
+        width: 415px;
+        height: 250px;
     }
 
     .slide .item:nth-child(4){
@@ -146,7 +152,27 @@
         justify-content: center;
         font-size: 22px;
         cursor: pointer;
-        transition: 1s linear;
+        transition: .5s linear;
+    }
+
+    .icons{
+        position: absolute;
+        margin-bottom: 70px;
+        right: 30%;
+    }
+
+    .play {
+        margin-left: 5px;
+    }
+
+    .play h5 {
+
+        margin-left: 5px;
+        
+    }
+
+    #currentStart {
+        margin-left: 20px;
     }
 
     

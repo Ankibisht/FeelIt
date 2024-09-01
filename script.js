@@ -197,15 +197,29 @@ shuffle.addEventListener('click',()=>{
 });
 
 
-
+var x = window.matchMedia("(max-width:1024px)");
 
 //responsive
+if(x.matches){
+let menu_list = document.getElementById("menu_list");
+let left = document.getElementsByClassName("left")[0];
+
+menu_list.addEventListener('click', ()=>{
+    left.style.transform = "unset";
+    menu_list.style.opacity = 0;
+});
+
 
 let right = document.getElementsByClassName("right")[0];
 right.addEventListener('click', ()=>{
     left.style.transform = "translateX(-100%)";
     menu_list.style.opacity = 1;
-})
+});
+
+};
+
+
+
 
 
 
